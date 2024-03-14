@@ -17,17 +17,20 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: rgba(248, 158, 41, 0.882);
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.Tooltip {
+  width: max-content;
+  background-color: #444;
+  color: white;
+  font-size: 90%;
+  padding: 4px 8px;
+  border-radius: 4px;
 }
